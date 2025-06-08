@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "nudgy",
+    "slug": "nudgy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/nudgy.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.dev.shriram.ms.nudgy"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "08b37685-dd43-49a7-83bd-28518dc0fb75"
+      }
+    }
+  }
+}
